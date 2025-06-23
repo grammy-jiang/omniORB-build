@@ -18,3 +18,21 @@ repos:
         entry: yamlfmt
         language: golang
         types: [yaml]
+  - repo: https://github.com/markdownlint/markdownlint
+    rev: v0.12.0
+    hooks:
+      - id: markdownlint
+        name: Markdownlint
+        description: Run markdownlint on your Markdown files
+        entry: mdl
+        language: ruby
+        files: \.(md|mdown|markdown)$
+  - repo: https://github.com/amperser/proselint
+    rev: 0.14.0
+    hooks:
+      - id: proselint
+        name: A linter for prose
+        description: This hook checks language usage and style in text files.
+        entry: proselint
+        language: python
+        types: [text]
