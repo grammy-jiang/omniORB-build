@@ -1,0 +1,19 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.17.1
+    hooks:
+      - id: yamlfmt
+        name: yamlfmt
+        description: This hook uses github.com/google/yamlfmt to format yaml files. Requires Go >1.18 to be installed.
+        entry: yamlfmt
+        language: golang
+        types: [yaml]
