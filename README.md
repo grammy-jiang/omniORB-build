@@ -25,26 +25,26 @@ and deployment.
 The following CPU architectures are targeted for build support:
 
 - [ ] [x86-64 (AMD64)](https://en.wikipedia.org/wiki/X86-64)
-- ARM:
-  - [ ] ARMv6 (32-bit)
-  - [ ] ARMv7-A (32-bit)
-  - ARMv8-A:
-    - [ ] AArch32 (32-bit)
-    - [ ] [AArch64 (64-bit)](https://en.wikipedia.org/wiki/AArch64)
+- [ ] ARMv6 (32-bit)
+- [ ] ARMv7-A (32-bit)
+- [ ] AArch32 (32-bit)
+- [ ] [AArch64 (64-bit)](https://en.wikipedia.org/wiki/AArch64)
 
 ## Supported Operating Systems
 
 Builds are planned for the following Linux distributions, organized by
 packaging format:
 
-- **`.deb`-based distributions**:
-  - [ ] Debian
-  - [ ] Ubuntu
+**`.deb`-based distributions**:
 
-- **`.rpm`-based distributions**:
-  - [ ] CentOS
-  - [ ] Fedora
-  - [ ] Red Hat Enterprise Linux (RHEL)
+- [ ] Debian
+- [ ] Ubuntu
+
+**`.rpm`-based distributions**:
+
+- [ ] CentOS
+- [ ] Fedora
+- [ ] Red Hat Enterprise Linux (RHEL)
 
 ## Supported Python Versions
 
