@@ -46,7 +46,7 @@ repos:
     hooks:
       - id: shellcheck
   - repo: https://github.com/openstack/bashate
-    rev: ""
+    rev: 2.1.1
     hooks:
       - id: bashate
         name: bashate
@@ -54,3 +54,7 @@ repos:
         entry: bashate
         language: python
         types: [shell]
+  - repo: https://github.com/thlorenz/doctoc
+    rev: v2.2.0
+    hooks:
+      - id: doctoc
