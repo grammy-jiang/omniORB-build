@@ -43,12 +43,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "omniOBR Version: $OMNIORB_VERSION"
+          echo "omniORB Version: $OMNIORB_VERSION"
           echo "Linux Distro: $LINUX_DISTRO"
           echo "Python Version: $PYTHON_VERSION"
           echo "Architecture: $ARCHITECTURE"
         env:
-          OMNIOBR_VERSION: ${{ inputs.omniORB_version }}
+          OMNIORB_VERSION: ${{ inputs.omniORB_version }}
           LINUX_DISTRO: ${{ inputs.runner_image }}
           PYTHON_VERSION: ${{ inputs.python_version }}
           ARCHITECTURE: ${{ inputs.architecture }}
